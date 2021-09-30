@@ -34,7 +34,7 @@ def TablabinHex(cuatro_digitos_binarios):
     elif cuatro_digitos_binarios == "1111":
         digito_hexadecimal = "F"
     return digito_hexadecimal
-
+--------------------------------------------------------
 def bin2hex(numero_binario):
     n = numero_binario
 
@@ -47,7 +47,7 @@ def bin2hex(numero_binario):
         
     return numero_hexadecimal
 
-
+---------------------------------------------------------
 if __name__ == "__main__":
    
     numero_binario = input("Escribe el número en binario que quieres convertir: ")
